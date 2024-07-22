@@ -1,1 +1,5 @@
 # DataVizify
+
+Developed a web application to facilitate the process of visualizing datasets according to the user query with the help of ChatGPT API. The Natural Language Interface (NLI) was built using the Streamlit framework of Python. The user can either choose a dataset from the listed ones or upload their own custom dataset. They can input what they want to visualize from the dataset in the textbox provided. Upon clicking the go button a final prompt is generated using the user query and a few already written commands and is sent to the ChatGPT API after establishing a connection using the OpenAI API key. The produced python code is then rendered back into the NLI to display the generated plot.
+Additionally, this plot is saved as a png file and sent to a third party website using Selenium to generate a description for the plot which is also returned back to the NLI and displayed.
+This web application was developed with the aim of making data visualization easier for people with little or no programming knowledge.
